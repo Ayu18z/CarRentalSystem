@@ -1,0 +1,32 @@
+.custom-navbar {
+    background-image: linear-gradient(to right, #3d2c2c, #0a2e38);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .navbar-title {
+        >a {
+
+            a :hover {
+                color: rgb(87, 36, 36);
+                font-size: xx-large;
+            }
+            color: white !important;
+            margin-left: 10px;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+
+        a {
+            color: rgb(255, 255, 255);
+            margin-left: 15px;
+        }
+    }
+}
+
