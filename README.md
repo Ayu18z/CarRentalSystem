@@ -1,13 +1,39 @@
-# CarRentalSystem
+# 🚗 Car Rental System
 
-The name of my project is Car Rental System. It is a web-based application. This project is built using Spring Boot, Angular, and MySQL.
-This project features two distinct roles- Admin and User
+A **web-based Car Rental System** built using **Spring Boot**, **Angular**, and **MySQL**.  
+This project provides a seamless interface for both **Admin** and **User** roles to manage and book cars efficiently.
 
-Admin:- 
-1. CRUD Operation of Cars- Admin can create, read, update, and delete the list of cars
-2. Advanced Car Search- Both admin and user can search the car
-3. Admin can handle the booking requests - Approve or Reject
-   
-Users:-
-1. The user can send a request to book a car for a specific date and time.
-2. Users can also check their past booking history.
+---
+
+## ✨ Features
+
+### 👨‍💼 Admin
+- **🚘 CRUD Operations on Cars:**  
+  Add, update, view, or delete cars from the system.
+- **🔍 Advanced Car Search:**  
+  Easily search for cars based on model, price, or availability.
+- **📋 Manage Booking Requests:**  
+  Approve or reject user booking requests in real time.
+
+---
+
+### 🙋‍♂️ User
+- **📅 Book a Car:**  
+  Send a booking request for a specific date and time.
+- **🕓 Booking History:**  
+  View previous car rentals and booking details.
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | Angular |
+| **Backend** | Spring Boot |
+| **Database** | MySQL |
+| **Tools** | Postman, GitHub, Maven |
+
+---
+
+## 🏗️ Project Architecture
